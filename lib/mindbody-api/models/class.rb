@@ -22,6 +22,8 @@ module MindBody
       attribute :end_date_time, DateTime
       attribute :class_description, ClassDescription
       attribute :staff, Staff
+      attribute :location_info, Hash
+      attribute :class_info, Hash
 
       def name
         class_description.name
